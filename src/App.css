@@ -1,0 +1,129 @@
+body {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family: "MS Reference Sans Serif";
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+    font-weight: bolder;
+    font-family: Calibri;
+    font-size: 30px;
+    color: darkgrey;
+    display: flex;
+    align-self: center;
+    padding: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+span{
+    color: red;
+    font-size: xx-small;
+}
+
+input[type=text] {
+    padding: 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    width:90%;
+    font-size: x-small;
+}
+
+input[type=text]:focus {
+
+    border-color: #555555;
+}
+
+input[type=number] {
+    padding: 10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    width:90%;
+    font-size: x-small;
+}
+
+input[type=number]:focus {
+    border: 3px solid #555;
+}
+
+input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+}
+
+
+fieldset {
+    padding:10px;
+    border-radius:12px;
+    width: 280px;
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    text-decoration-color: #555555;
+    font-size: x-small;
+}
+
+#counterButton {
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+    /* usual styles */
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    width: 15px;
+    padding:15px;
+    border:none;
+    border-radius:5px;
+
+}
+
+#confirmButton {
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:30px;
+    width:100%;
+}
+
+label {
+    font-size: x-small;
+    color: #555555;
+}
+
+#remarks {
+    appearance:none;
+    -webkit-appearance:none;
+    height: 30px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 50px;
+    width: 90%;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    text-decoration-color: #555555;
+    font-size: x-small;
+}
+
+
+
